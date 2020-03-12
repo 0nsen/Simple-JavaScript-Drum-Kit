@@ -7,15 +7,13 @@ body {
     background-size: cover;
 }
 
-.keys {
+.key-container {
     margin-top: 250px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    /*border: red solid 1px;*/
     height: 150px;
     width: auto;
-
 }
 
 .key {
@@ -26,6 +24,7 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
     width: 100px;
     text-align: center;
+    margin: auto 10px;
 }
 
 kbd {
@@ -33,6 +32,7 @@ kbd {
     text-align: center;
     font-size: 30px;
     color: #ffefa4;
+    font-family: 'Lobster', cursive;
 }
 
 span {
