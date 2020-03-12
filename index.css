@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('drumkit.jpg');
+    background-size: cover;
+}
+
+.keys {
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*border: red solid 1px;*/
+    height: 150px;
+    width: auto;
+
+}
+
+.key {
+    border: black solid 3px;
+    border-radius: 5%;
+    padding: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100px;
+    text-align: center;
+}
+
+kbd {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: #ffefa4;
+}
+
+span {
+    font-weight: bold;
+    font-size: 10px;
+}
