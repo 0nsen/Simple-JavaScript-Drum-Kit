@@ -25,6 +25,12 @@ body {
     width: 100px;
     text-align: center;
     margin: auto 10px;
+    transition: 0.05s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border: solid yellow;
 }
 
 kbd {
